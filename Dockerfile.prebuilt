@@ -1,0 +1,3 @@
+FROM gcr.io/distroless/base
+COPY ./wireguard-ui /
+ENTRYPOINT [ "/wireguard-ui" ]
